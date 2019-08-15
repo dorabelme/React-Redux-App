@@ -1,0 +1,46 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .ui.card {
+    width: 400px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    }
+
+    >.extra {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    i.icon {
+        color: black;
+    }
+    >.content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    >.content>.description {
+        text-align: center;
+    }
+}
+
+.ui.card:first-child {
+    margin-top: 1em;
+}
+
+.ui.card>.extra {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
