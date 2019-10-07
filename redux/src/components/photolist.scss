@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url('../assets/unsplash.jpg');
+
+    .navbar{
+    display: flex;
+    flex-direction: row;
+    background: black;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+
+
+    h1 {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 20px;
+        margin: 0;
+        }
+    }       
+}
+
+.ui.card>.content>.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
